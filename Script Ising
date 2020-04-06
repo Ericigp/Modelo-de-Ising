@@ -1,0 +1,22 @@
+#Script que genera un gif con la evolución de los spines de la red de electrones
+#Terminal tio gif con 30 frames por segundo
+set terminal gif animate delay 16.66
+set output 'Ising.gif'
+
+#Tamaño de la red
+N=128
+
+set key left
+set xtics; set ytics;
+
+set palette grey
+
+set xra[0:N-1]
+set yra[0:N-1]
+
+#Representación de los datos en un gif
+do for [ii=0:500]{
+    plot 'Red semilla: 1869732' i ii matrix with image
+}
+
+

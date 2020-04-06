@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1585754308 source:/home/eiglesias/Documents/Compu/Ising/Obligatorio/main.cpp
+	<iostream>
+	<cmath>
+	<fstream>
+	<string>
+	<cstdlib>
+	"gsl_rng.h"
+
+1585515551 /home/eiglesias/Documents/Compu/Ising/Obligatorio/gsl_rng.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_inline.h>
+
